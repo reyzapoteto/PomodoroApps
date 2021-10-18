@@ -1,4 +1,4 @@
-package com.pomodoroapps
+package com.pomodoroapps.main
 
 import android.annotation.SuppressLint
 import android.app.NotificationChannel
@@ -22,6 +22,7 @@ import androidx.databinding.DataBindingUtil
 import com.pomodoroapps.Adapter.TaskAdapter
 import com.pomodoroapps.Database.DTO.PomodoroDTO
 import com.pomodoroapps.Database.DatabaseHelper
+import com.pomodoroapps.R
 import com.pomodoroapps.databinding.ActivityTimerApps3Binding
 import java.util.*
 

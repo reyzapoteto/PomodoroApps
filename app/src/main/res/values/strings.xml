@@ -1,13 +1,39 @@
 <resources>
-    <string name="app_name">Pomodoro Apps</string>
+    <string name="app_name">Teman Waktu</string>
     <string name="title_activity_timer_apps">TimerApps</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
+
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="working">Working Mode</string>
     <string name="breakmode">Break Mode</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title1">Hello Folks</string>
+    <string name="title2">Boost Your Day with \nSomeProductivity with \nPomodoro Technique 🔥</string>
+    <string name="titleWork">Time for Working</string>
+    <string name="placeholderWork">Go in Minute</string>
+    <string name="titleBreak">Time for Break</string>
+    <string name="placeholderBreak">Go in Minute</string>
+    <string name="titleMotto">Motto to make a spirit</string>
+    <string name="placeholderMotto">Enter the motto</string>
+    <string name="titleButton">Start Pomodoro</string>
+    <string name="language">Language</string>
+    <string name="darkmode">Darkmode</string>
+    <string name="titleAddTask">Tambahkan Tugas</string>
+    <string name="placeholderAddTitleTask">Enter the task</string>
+    <string name="rbImportant">Important</string>
+    <string name="rbMedium">Medium</string>
+    <string name="rbLow">Low</string>
+    <string name="buttontextCreateTask">Create Task</string>
+    <string name="buttonCancelCreateTask">Cancel Task</string>
+    <string name="tvTitleTimer">Working Mode</string>
+    <string name="start">Start</string>
+    <string name="paused">Paused</string>
+    <string name="startagain">StartAgain</string>
+    <string name="give_up">Give up</string>
+    <string name="tvTaskOnGoing">Task On Going</string>
+
 </resources>

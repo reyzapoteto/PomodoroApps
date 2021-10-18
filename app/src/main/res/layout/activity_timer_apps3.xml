@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/Red"
-        tools:context=".TimerApps">
+        tools:context=".main.TimerApps">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -32,7 +32,8 @@
                     android:background="@color/Red"
                     android:src="@drawable/ic_baseline_keyboard_back_24"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="ContentDescription" />
 
                 <TextView
                     android:id="@+id/tvTitle"
@@ -40,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="40dp"
                     android:fontFamily="sans-serif-black"
-                    android:text="Working Mode"
+                    android:text="@string/tvTitleTimer"
                     android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold"
@@ -64,7 +65,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="22:50"
                         android:textAlignment="center"
                         android:textColor="@color/white"
                         android:textSize="45sp"
@@ -85,7 +85,7 @@
                     android:layout_weight="1"
                     android:backgroundTint="@color/white"
                     android:paddingVertical="15dp"
-                    android:text="Start"
+                    android:text="@string/start"
                     android:visibility="visible"
                     android:textColor="@color/Red"
                     android:textSize="18sp"
@@ -116,7 +116,7 @@
                         android:layout_weight="1"
                         android:backgroundTint="@color/white"
                         android:padding="15dp"
-                        android:text="Paused"
+                        android:text="@string/paused"
                         android:visibility="invisible"
                         android:textColor="@color/Red"
                         android:textStyle="bold"
@@ -130,7 +130,7 @@
                         android:layout_weight="1"
                         android:backgroundTint="@color/white"
                         android:padding="15dp"
-                        android:text="StartAgain"
+                        android:text="@string/startagain"
                         android:visibility="gone"
                         android:textColor="@color/Red"
                         android:textStyle="bold"
@@ -143,7 +143,7 @@
                         android:layout_margin="10dp"
                         android:layout_weight="1"
                         android:padding="15dp"
-                        android:text="Give up"
+                        android:text="@string/give_up"
                         android:textColor="@color/white"
                         android:textStyle="bold"
                         android:visibility="invisible"
@@ -160,7 +160,6 @@
                     android:layout_marginHorizontal="30dp"
                     android:layout_marginTop="25dp"
                     android:fontFamily="sans-serif"
-                    android:text="Be patient what ever you want"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="italic"
@@ -175,7 +174,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="40dp"
                     android:layout_marginTop="40dp"
-                    android:text="Task On Going"
+                    android:text="@string/tvTaskOnGoing"
                     android:textColor="@color/white"
                     android:textSize="23sp"
                     android:textStyle="bold"
@@ -191,7 +190,8 @@
                     android:background="@color/Red"
                     android:src="@drawable/ic_baseline_add_24"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toBottomOf="@id/tvMotto" />
+                    app:layout_constraintTop_toBottomOf="@id/tvMotto"
+                    tools:ignore="ContentDescription" />
 
 
                 <LinearLayout

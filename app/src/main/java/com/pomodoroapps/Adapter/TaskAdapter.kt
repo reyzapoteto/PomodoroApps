@@ -16,14 +16,15 @@ import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.pomodoroapps.Database.DTO.PomodoroDTO
 import com.pomodoroapps.R
-import com.pomodoroapps.TimerApps
+import com.pomodoroapps.main.TimerApps
 
 class TaskAdapter(
+
     private val activity: TimerApps,
     private val list: MutableList<PomodoroDTO>,
     private val backgroundColor: Int
-) : RecyclerView.Adapter<TaskAdapter.ViewHolder>() {
 
+) : RecyclerView.Adapter<TaskAdapter.ViewHolder>() {
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val backgroundTask: ConstraintLayout = itemView.findViewById(R.id.backgroundDatamodelTask)
@@ -62,6 +63,7 @@ class TaskAdapter(
                     Toast.makeText(activity, "Data Terhapus", Toast.LENGTH_SHORT).show()
                 }
         }
+
 
 
         // check Priority

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Teman Waktu</string>
+    <string name="title_activity_timer_apps">TimerApps</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="next">Selanjutnya</string>
+    <string name="previous">Kembali</string>
+    <string name="working">Mode Bekerja</string>
+    <string name="breakmode">Mode Istirahat</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title1">Hallo Sobat</string>
+    <string name="title2">Buat harimu semakin produktif \n dengan merencanakan kegiatan \n sehari hari 🔥</string>
+    <string name="titleWork">Waktu untuk Bekerja</string>
+    <string name="placeholderWork">Berapa Menit ?</string>
+    <string name="titleBreak">Waktu untuk Istirahat</string>
+    <string name="placeholderBreak">Berapa Menit ?</string>
+    <string name="titleMotto">Kata untuk membuat Semangat</string>
+    <string name="placeholderMotto">Masukkan Kata</string>
+    <string name="titleButton">Mulai Pomodoro</string>
+    <string name="language">Bahasa</string>
+    <string name="darkmode">Mode Gelap</string>
+
+    <string name="titleAddTask">Tambahkan Tugas</string>
+    <string name="placeholderAddTitleTask">Tambahkan Judul</string>
+    <string name="rbImportant">Penting</string>
+    <string name="rbMedium">Menegah</string>
+    <string name="rbLow">Tidak Penting</string>
+    <string name="buttontextCreateTask">Buat Tugas</string>
+    <string name="buttonCancelCreateTask">Batalkan Tugas</string>
+
+    <string name="tvTitleTimer">Mode Bekerja</string>
+    <string name="start">Mulai</string>
+    <string name="paused">Berhenti</string>
+    <string name="startagain">Mulai Lagi</string>
+    <string name="give_up">Menyerah</string>
+    <string name="tvTaskOnGoing">Tugas yang Sedang Berjalan</string>
+
+</resources>
